@@ -2,7 +2,7 @@
 
 first, clone the repo:
 ```
-git clone git@github.com:amozgovoy/bw_pa.git
+git clone https://github.com/amozgovoy/bw_pa.git
 cd bw_pa
 ```
 
