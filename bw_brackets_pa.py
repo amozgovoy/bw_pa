@@ -1,5 +1,5 @@
 def solution(A):
-    SymbolStack = [] 
+    SymbolStack = []
     PositionStack = []
     CurrentPosition = 0
 
@@ -14,8 +14,8 @@ def solution(A):
             else:
                 return CurrentPosition
         CurrentPosition += 1
-    
+
     if not SymbolStack:
         return -1
-    else: 
+    else:
         return PositionStack[0]
